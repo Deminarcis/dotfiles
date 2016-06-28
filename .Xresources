@@ -1,0 +1,46 @@
+!Xft Fonts settings
+
+    Xft.autohint: 0
+    Xft.antialias: true
+    Xft.hinting: true
+    Xft.hintstyle: hintfull
+    Xft.dpi: 96
+    Xft.rgba: rgb
+    Xft.lcdfilter: lcddefault
+
+!URxvt settings
+
+  URxvt.url-select.underline:             true
+  URxvt.perl-ext-common:                  default,tabbed,matcher
+  URxvt.url-launcher:                     /opt/google/chrome/google-chrome
+  URxvt*font:                             xft:terminus:size=8
+  urxvt*termName:                         rxvt
+  urxvt*scrollBar:                        false
+  urxvt*transparent:                      false
+  URxvt*geometry:                         93x23
+  urxvt*allow_bold:                       false
+  URxvt.cursorBlink:                      true
+  URxvt.cursorUnderline:                  true
+  URxvt*scrollTtyKeypress:                true
+  URxvt*scrollTtyOutput:                  false
+  urxvt*depth:                            32
+  urxvt*background:                       rgba:0000/0000/0200/c800
+  URxvt*foreground:                       white
+  !URxvt*background:                      black
+  URxvt*saveLines:                        12000
+! TABS COLOURS
+ URxvt.color0  : #151515
+ URxvt.color1  : #ff005b
+
+
+! -------- Colors ---------- #
+! -------------------------- #
+
+! vim: set filetype=xdefaults :
+*foreground: #D7D0C7
+*background: #151515
+
+URxvt*borderColor:        #151515
+URxvt*colorBD:            #ffffff
+URxvt*cursorColor:        #ff8939
+URxvt*cursorColor2:       #151515
